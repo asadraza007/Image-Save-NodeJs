@@ -4,7 +4,7 @@ Save PNG, JPG and JPEG images on Nodejs Server.
 ## Function
 this function only accept JSON object
 
-##JSON
+## JSON
 
 {
   "name":"Image File Name.png" ,
