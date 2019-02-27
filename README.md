@@ -14,5 +14,5 @@ this function only accept JSON object
 
 and Return the relative url of the image.
 
-# Note
+### Note
 if the image of same name already exist then append number in the start to avoid replacing existing Image.
