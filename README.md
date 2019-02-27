@@ -3,10 +3,14 @@ Save PNG, JPG and JPEG images on Nodejs Server.
 
 ## Function
 this function only accept JSON object
-#{
+
+##JSON
+
+{
   "name":"Image File Name.png" ,
   "data":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/4Q3zaHR0cDovL25zLmFkb2JlLmN..."
 }
+
 
 and Return the relative url of the image.
 
