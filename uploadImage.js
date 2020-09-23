@@ -20,6 +20,8 @@ exports.saveImage = (req, res) => {
         base64Data = image.data.replace(/^data:image\/png;base64,/, "");
     } else if (image.name.indexOf(".jp") !==-1){
         base64Data = image.data.replace(/^data:image\/jpeg;base64,/, "");
+    }else if(image.name.indexOf(".pdf")){
+        base64Data = image.data.replace(/^data:application\/pdf;base64,/, "");
     }
     
     // saving image file
